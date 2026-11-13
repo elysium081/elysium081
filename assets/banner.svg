@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="NyxSec · Full-stack developer · Fundador de DisHub">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d17"/>
+      <stop offset="1" stop-color="#11132a"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5865f2"/>
+      <stop offset=".5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0;0.4 0;-0.4 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <clipPath id="r"><rect width="1200" height="300" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .t { font-family: 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+    .name { font-size: 76px; font-weight: 800; letter-spacing: -2px; }
+    .role { font-size: 25px; font-weight: 600; fill: #c7cbff; }
+    .tag { font-size: 17px; font-weight: 600; fill: #e5e7ff; }
+    .mono { font-family: 'Cascadia Code', 'Fira Code', Consolas, monospace; font-size: 16px; fill: #8b93c9; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+    .float { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 50% { transform: translateY(-8px) } }
+  </style>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <circle cx="980" cy="60" r="260" fill="url(#glow1)">
+      <animate attributeName="cx" values="980;900;980" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="280" r="200" fill="url(#glow2)">
+      <animate attributeName="cy" values="280;230;280" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="296" width="1200" height="4" fill="url(#brand)"/>
+
+    <g class="t">
+      <text x="70" y="88" class="mono">~/nyxsec $ whoami<tspan class="cursor"> ▍</tspan></text>
+      <text x="66" y="168" class="name" fill="url(#brand)">NyxSec</text>
+      <text x="70" y="212" class="role">Full-stack developer · Fundador de DisHub</text>
+      <g>
+        <rect x="70" y="236" width="150" height="36" rx="18" fill="#5865f2" fill-opacity=".18" stroke="#5865f2" stroke-opacity=".6"/>
+        <text x="145" y="260" text-anchor="middle" class="tag">🤖 Discord</text>
+        <rect x="232" y="236" width="150" height="36" rx="18" fill="#8b5cf6" fill-opacity=".18" stroke="#8b5cf6" stroke-opacity=".6"/>
+        <text x="307" y="260" text-anchor="middle" class="tag">⚡ Next.js</text>
+        <rect x="394" y="236" width="170" height="36" rx="18" fill="#22d3ee" fill-opacity=".14" stroke="#22d3ee" stroke-opacity=".6"/>
+        <text x="479" y="260" text-anchor="middle" class="tag">🧠 IA aplicada</text>
+      </g>
+    </g>
+
+    <!-- Tarjeta de código flotante -->
+    <g class="float" transform="translate(760 70)">
+      <rect width="360" height="168" rx="16" fill="#0f1122" stroke="#ffffff" stroke-opacity=".08"/>
+      <circle cx="22" cy="20" r="5" fill="#f87171"/><circle cx="40" cy="20" r="5" fill="#fbbf24"/><circle cx="58" cy="20" r="5" fill="#34d399"/>
+      <text x="22" y="58" class="mono"><tspan fill="#c084fc">const</tspan><tspan fill="#e5e7ff"> nyx = {</tspan></text>
+      <text x="42" y="84" class="mono"><tspan fill="#93c5fd">builds</tspan><tspan fill="#e5e7ff">: </tspan><tspan fill="#86efac">"DisHub"</tspan><tspan fill="#e5e7ff">,</tspan></text>
+      <text x="42" y="108" class="mono"><tspan fill="#93c5fd">stack</tspan><tspan fill="#e5e7ff">: [</tspan><tspan fill="#86efac">"TS"</tspan><tspan fill="#e5e7ff">, </tspan><tspan fill="#86efac">"Next"</tspan><tspan fill="#e5e7ff">, </tspan><tspan fill="#86efac">"Py"</tspan><tspan fill="#e5e7ff">],</tspan></text>
+      <text x="42" y="132" class="mono"><tspan fill="#93c5fd">from</tspan><tspan fill="#e5e7ff">: </tspan><tspan fill="#86efac">"España"</tspan></text>
+      <text x="22" y="156" class="mono" fill="#e5e7ff">};</text>
+    </g>
+  </g>
+</svg>
