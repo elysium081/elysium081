@@ -20,7 +20,7 @@ Me gusta construir productos completos, desde la base de datos hasta el último 
 ```ts
 const nyxsec = {
   rol: "Fundador y desarrollador de DisHub",
-  ahoraMismo: ["Haciendo crecer dishublist.com", "Bots con IA para Discord"],
+  ahoraMismo: ["Haciendo crecer dishublist.com", "Lanzando DisGuard (disguard.top)", "Bots con IA para Discord"],
   stack: ["TypeScript", "Next.js", "React", "Node.js", "Python", "PostgreSQL"],
   contacto: "Discord → NyxSec | DisHub",
 };
@@ -43,17 +43,21 @@ const nyxsec = {
 | 🧠 **IA** | Asistente «Hubi» con contexto de la web y escalado a tickets; preanálisis de seguridad de cada bot |
 | 🛡️ **Moderación** | Revisión de bots con pruebas comprobadas en un servidor de pruebas, auditorías de staff, AutoMod y apelaciones |
 | 🔌 **API pública** | Votos con webhooks, widgets SVG e insignias para desarrolladores |
-| ⚙️ **Infraestructura** | Prisma + PostgreSQL (Supabase), Auth.js con Discord, Netlify + funciones programadas, alertas de errores en Discord |
+| ⚙️ **Infraestructura** | Prisma + PostgreSQL (Supabase), Auth.js con Discord, Vercel, tareas programadas y alertas de errores en Discord |
 
 <p>
   <img src="https://img.shields.io/website?url=https%3A%2F%2Fdishublist.com&style=flat-square&label=dishublist.com&up_message=online&down_message=offline" alt="Estado de dishublist.com" />
   <img src="https://img.shields.io/badge/estado-en_producción-34D399?style=flat-square" alt="En producción" />
+  <img src="https://img.shields.io/website?url=https%3A%2F%2Fdisguard.top&style=flat-square&label=disguard.top&up_message=online&down_message=offline" alt="Estado de disguard.top" />
+  <img src="https://img.shields.io/website?url=https%3A%2F%2Fdisbuild.com&style=flat-square&label=disbuild.com&up_message=online&down_message=offline" alt="Estado de disbuild.com" />
 </p>
 
 ### 🧩 Otros proyectos
 
 | Proyecto | Qué es | Tecnología |
 |---|---|---|
+| [**DisGuard**](https://disguard.top/?ref=github) | Bot de seguridad para Discord en español: anti-raid, anti-nuke por minuto, automod, anti-alt, verificación, tickets, logs, backups y una red de baneos revisada por personas. Con panel web para configurarlo todo | Node.js · discord.js · Next.js · PostgreSQL |
+| [**DisBuild**](https://disbuild.com/?ref=github) | Crea servidores de Discord completos (roles, canales y permisos) a partir de una descripción, con IA | Next.js · IA · Discord API · Stripe |
 | [**stream-editor-ai-worker**](https://github.com/elysium081/stream-editor-ai-worker) | Worker en la nube para editar vídeo con IA, empaquetado en Docker y publicado en GHCR con GitHub Actions | Python · Docker · CI/CD |
 
 ---
@@ -71,7 +75,8 @@ const nyxsec = {
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
+  <img src="https://img.shields.io/badge/discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord.js" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" />
